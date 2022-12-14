@@ -6,44 +6,138 @@
         xmlns:local="clr-namespace:Client"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black"/>
-                <GradientStop Color="White" Offset="1"/>
-            </LinearGradientBrush>
-        </Grid.Background>
-        <Image HorizontalAlignment="Left" Height="60" Margin="102,31,0,0" VerticalAlignment="Top" Width="61" Visibility="Visible"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="102,101,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="102,171,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="102,242,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="102,318,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="192,31,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="192,101,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="192,171,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="192,242,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="192,318,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="303,31,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="303,101,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="303,171,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="303,242,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="303,318,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="388,31,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="388,101,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="388,171,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="388,242,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="388,318,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="479,31,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="479,101,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="479,171,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="479,242,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="479,318,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="584,31,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="584,101,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="584,171,0,0" VerticalAlignment="Top" Width="61"/>
-        <Image HorizontalAlignment="Left" Height="60" Margin="584,242,0,0" VerticalAlignment="Top" Width="61"/>
+    <Grid Margin="125,55,125,39"  ShowGridLines="True" Width="550" Height="340"  >
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Image Grid.Row="0" Grid.Column="0" />
+        <Border BorderBrush="Black" BorderThickness="2"/>
 
-        <Image HorizontalAlignment="Left" Height="60" Margin="584,318,0,2" VerticalAlignment="Top" Width="61"/>
+        <Image Grid.Row="1" Grid.Column="0"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="0"/>
+        
+        <Image Grid.Row="2" Grid.Column="0"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="0"/>
+
+        <Image Grid.Row="3" Grid.Column="0"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="0"/>
+        
+         <Image Grid.Row="4" Grid.Column="0"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="0"/>
+
+
+        <Image Grid.Row="0" Grid.Column="1"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="1"/>
+
+        <Image Grid.Row="1" Grid.Column="1"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="1"/>
+
+        <Image Grid.Row="2" Grid.Column="1"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="1"/>
+
+        <Image Grid.Row="3" Grid.Column="1"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="1"/>
+
+
+        <Image Grid.Row="4" Grid.Column="1"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="1"/>
+
+
+
+
+
+
+
+        <Image Grid.Row="0" Grid.Column="2"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="2"/>
+
+        <Image Grid.Row="1" Grid.Column="2"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="2"/>
+
+        <Image Grid.Row="2" Grid.Column="2"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="2"/>
+
+        <Image Grid.Row="3" Grid.Column="2"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="2"/>
+
+
+        <Image Grid.Row="4" Grid.Column="2"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="2"/>
+
+
+
+
+
+
+
+
+        <Image Grid.Row="0" Grid.Column="3"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="3"/>
+
+        <Image Grid.Row="1" Grid.Column="3"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="3"/>
+
+        <Image Grid.Row="2" Grid.Column="3"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="3"/>
+
+        <Image Grid.Row="3" Grid.Column="3"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="3"/>
+
+
+        <Image Grid.Row="4" Grid.Column="3"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="3"/>
+
+
+
+
+
+
+        <Image Grid.Row="0" Grid.Column="4"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="4"/>
+
+        <Image Grid.Row="1" Grid.Column="4"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="4"/>
+
+        <Image Grid.Row="2" Grid.Column="4"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="4"/>
+
+        <Image Grid.Row="3" Grid.Column="4"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="4"/>
+
+
+        <Image Grid.Row="4" Grid.Column="4"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="4"/>
+
+
+
+        <Image Grid.Row="0" Grid.Column="5"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="5"/>
+
+        <Image Grid.Row="1" Grid.Column="5"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="5"/>
+
+        <Image Grid.Row="2" Grid.Column="5"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="5"/>
+
+        <Image Grid.Row="3" Grid.Column="5"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="5"/>
+
+
+        <Image Grid.Row="4" Grid.Column="5"/>
+        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="15"/>
 
 
     </Grid>
