@@ -26,7 +26,9 @@ namespace Client
         public MainWindow()
         {
             InitializeComponent();
-
+            Finestra f = new Finestra();
+            f.ShowDialog();
+            String s= f.nome;
 
         }
 

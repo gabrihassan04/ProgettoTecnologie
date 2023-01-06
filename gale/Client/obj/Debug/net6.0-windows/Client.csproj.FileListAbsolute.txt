@@ -19,3 +19,5 @@ C:\Users\gabri\OneDrive\Documenti\GitHub\ProgettoTecnologie\gale\Client\obj\Debu
 C:\Users\gabri\OneDrive\Documenti\GitHub\ProgettoTecnologie\gale\Client\obj\Debug\net6.0-windows\Client.pdb
 C:\Users\gabri\OneDrive\Documenti\GitHub\ProgettoTecnologie\gale\Client\obj\Debug\net6.0-windows\Client.genruntimeconfig.cache
 C:\Users\gabri\OneDrive\Documenti\GitHub\ProgettoTecnologie\gale\Client\obj\Debug\net6.0-windows\ref\Client.dll
+C:\Users\gabri\OneDrive\Documenti\GitHub\ProgettoTecnologie\gale\Client\obj\Debug\net6.0-windows\Finestra.g.cs
+C:\Users\gabri\OneDrive\Documenti\GitHub\ProgettoTecnologie\gale\Client\obj\Debug\net6.0-windows\Finestra.baml
