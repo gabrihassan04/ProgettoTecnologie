@@ -19,9 +19,17 @@ namespace Client
     /// </summary>
     public partial class Finestra : Window
     {
+        private Connessione connessione;
+
         public Finestra()
         {
             InitializeComponent();
+
+            
+
+
+
+            //mettere qui la connessione
 
         }
         public String nome = "";
@@ -30,6 +38,8 @@ namespace Client
 
         {
             nome = TxtNome.Text;
+            connessione = new Connessione();
+            connessione.Connect("localhost", nome);
             Close();
         }
     }
