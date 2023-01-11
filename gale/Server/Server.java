@@ -7,7 +7,8 @@ import java.net.Socket;
 import java.net.SocketTimeoutException;
 import java.util.Scanner;
 
-public class Server {
+
+public class serverConnection {
     
     public int timeOut = 60;
     public boolean connected = false;
@@ -15,9 +16,9 @@ public class Server {
     private Scanner input;
     private ServerSocket sersock;
 
-    public Server(int port) throws IOException {
+    public serverConnection() throws IOException {
         try {
-        sersock = new ServerSocket(port);        
+        sersock = new ServerSocket(8080);        
         sersock.setSoTimeout(timeOut * 1000);
         System.out.println("Server  ready");
         Socket sock = sersock.accept();
@@ -26,6 +27,7 @@ public class Server {
         InputStream istream = sock.getInputStream();
         input = new Scanner(istream);
         connected = true;
+        receive();
         sersock.close();
         }
         catch (SocketTimeoutException ex) {
@@ -33,9 +35,9 @@ public class Server {
             connected = false;
         }
     }
-    public String receive() throws IOException {
-        if (connected = true) return input.nextLine();
-        return null;
+    public void receive() throws IOException {
+        //if (connected = true)  
+        System.out.println(input.nextLine());
     }
     public void send(String text) {
         if (connected == false) return;
@@ -46,4 +48,8 @@ public class Server {
         input.close();
         output.close();
     }
+    public static void main(String[] args) throws IOException{
+        serverConnection server = new serverConnection();
+    }
+    
 }
