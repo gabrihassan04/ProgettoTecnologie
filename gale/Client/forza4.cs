@@ -29,8 +29,8 @@ namespace Client
         public void inserisci()
         {
             if (giocatore == 1) // se giocatore 1 inserisci rosso
-            {
-
+            { 
+                img
             }
             else // se giocatore 2 inserisci giallo 
             {

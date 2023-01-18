@@ -25,36 +25,36 @@
             <RowDefinition />
         </Grid.RowDefinitions>
         <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0" />
-        <Border BorderBrush="Black" BorderThickness="2" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
+        <Border x:Name="img_1_1" BorderBrush="Black" BorderThickness="2" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
 
         <Image Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
+        <Border x:Name="img_1_2" BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
 
         <Image Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
+        <Border x:Name="img_1_3" BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
 
         <Image Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
+        <Border x:Name="img_1_4" BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
 
         <Image Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
+        <Border x:Name="img_1_5" BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,0,91,0"/>
 
 
         <Image Grid.Row="0" Grid.Column="2"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="2"/>
+        <Border x:Name="img_2_1" BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="2"/>
 
         <Image Grid.Row="1" Grid.Column="2"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="2"/>
+        <Border x:Name="img_2_2" BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="2"/>
 
         <Image Grid.Row="2" Grid.Column="2"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="2"/>
+        <Border x:Name="img_2_3" BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="2"/>
 
         <Image Grid.Row="3" Grid.Column="2"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="2"/>
+        <Border x:Name="img_2_4" BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="2"/>
 
 
         <Image Grid.Row="4" Grid.Column="2"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="2"/>
+        <Border x:Name="img_2_5" BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="2"/>
 
 
 
@@ -63,20 +63,20 @@
 
 
         <Image Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
+        <Border x:Name="img_3_1" BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
 
         <Image Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
+        <Border x:Name="img_3_2" BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
 
         <Image Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
+        <Border x:Name="img_3_3" BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
 
         <Image Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
+        <Border x:Name="img_3_4" BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
 
 
         <Image Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
+        <Border x:Name="img_3_5" BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
 
 
 
@@ -86,20 +86,20 @@
 
 
         <Image Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
+        <Border x:Name="img_4_1" BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
 
         <Image Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
+        <Border x:Name="img_4_2" BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
 
         <Image Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
+        <Border x:Name="img_4_3" BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
 
         <Image Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
+        <Border x:Name="img_4_4" BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
 
 
         <Image Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
+        <Border x:Name="img_4_5" BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2" Margin="0,0,91,0"/>
 
 
 
@@ -107,38 +107,38 @@
 
 
         <Image Grid.Row="0" Grid.Column="5"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="5"/>
+        <Border x:Name="img_5_1" BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="5"/>
 
         <Image Grid.Row="1" Grid.Column="5"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="5"/>
+        <Border x:Name="img_5_2" BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="5"/>
 
         <Image Grid.Row="2" Grid.Column="5"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="5"/>
+        <Border x:Name="img_5_3" BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="5"/>
 
         <Image Grid.Row="3" Grid.Column="5"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="5"/>
+        <Border x:Name="img_5_4" BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="5"/>
 
 
         <Image Grid.Row="4" Grid.Column="5"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="5"/>
+        <Border x:Name="img_5_5" BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="5"/>
 
 
 
         <Image Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
+        <Border x:Name="img_6_1" BorderBrush="Black" BorderThickness="2" Grid.Row="0" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
 
         <Image Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
+        <Border x:Name="img_6_2" BorderBrush="Black" BorderThickness="2" Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
 
         <Image Grid.Row="2" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
+        <Border x:Name="img_6_3" BorderBrush="Black" BorderThickness="2" Grid.Row="2" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
 
         <Image Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
+        <Border x:Name="img_6_4" BorderBrush="Black" BorderThickness="2" Grid.Row="3" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
 
 
         <Image Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
-        <Border BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
+        <Border x:Name="img_6_5" BorderBrush="Black" BorderThickness="2" Grid.Row="4" Grid.Column="5" Grid.ColumnSpan="2" Margin="91,0,0,0"/>
         <Button x:Name="Btn_1" Content="INSERISCI QUI " HorizontalAlignment="Left" Margin="4,-36,0,0" VerticalAlignment="Top" Width="84" Height="31" Grid.ColumnSpan="2" Click="Btn_1_Click"/>
         <Button x:Name="Btn_2" Content="INSERISCI QUI " HorizontalAlignment="Center" Margin="0,-36,0,0" VerticalAlignment="Top" Width="84" Height="31" Grid.Column="2" Click="Btn_2_Click"/>
         <Button x:Name="Btn_3" Content="INSERISCI QUI " HorizontalAlignment="Center" Margin="0,-36,0,0" VerticalAlignment="Top" Width="83" Height="31" Grid.Column="3" Click="Btn_3_Click"/>

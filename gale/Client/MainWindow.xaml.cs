@@ -34,10 +34,26 @@ namespace Client
         private void Btn_1_Click(object sender, RoutedEventArgs e) // evento bottone 1 
         {
             Connessione connessione = new Connessione();
-            connessione.send("");
-
-
-
+            if (img_1_1 is null)
+            {
+                img_1_1.inserisci();
+            }
+            else if (img_1_2 is null)
+            {
+                img_1_1.inserisci();
+            }
+            else if (img_1_3 is null)
+            {
+                img_1_1.inserisci();
+            }
+            else if (img_1_4 is null)
+            {
+                img_1_1.inserisci();
+            }
+            else (img_1_5 is null)
+            {
+                img_1_1.inserisci();
+            }
         }
 
         private void Btn_2_Click(object sender, RoutedEventArgs e) // evento bottone 1 
