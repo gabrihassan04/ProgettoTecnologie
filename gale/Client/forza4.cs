@@ -31,11 +31,11 @@ namespace Client
         {
             if (giocatore == 1) // se giocatore 1 inserisci rosso
             {
-                img.SetValue("/pallina_gialla.jpeg");
+                img.SetValue("\pallina_gialla.jpeg");
             }
             else // se giocatore 2 inserisci giallo 
             {
-
+                img.SetValue("\pallina_rossa.png");
             }
 
 
