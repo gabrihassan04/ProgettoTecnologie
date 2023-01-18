@@ -29,40 +29,45 @@ namespace Client
             Finestra f = new Finestra();
             f.ShowDialog();
             String s= f.nome;
-            
         }
 
         private void Btn_1_Click(object sender, RoutedEventArgs e) // evento bottone 1 
         {
-                
-            
-            
-               
+            Connessione connessione = new Connessione();
+            connessione.send("");
+
+
+
         }
 
         private void Btn_2_Click(object sender, RoutedEventArgs e) // evento bottone 1 
         {
-                 Connessione connessione = new Connessione();
+            Connessione connessione = new Connessione();
+            connessione.send("");
         }
 
         private void Btn_3_Click(object sender, RoutedEventArgs e) // evento bottone 1 
         {
                 Connessione connessione = new Connessione();
+                connessione.send("");
         }
 
         private void Btn_4_Click(object sender, RoutedEventArgs e) // evento bottone 1 
         {
                 Connessione connessione = new Connessione();
+                connessione.send("");
         }
 
         private void Btn_5_Click(object sender, RoutedEventArgs e) // evento bottone 1 
         {
                 Connessione connessione = new Connessione();
+                connessione.send("");
         }
 
         private void Btn_6_Click(object sender, RoutedEventArgs e) // evento bottone 1 
         {
                 Connessione connessione = new Connessione();
+                connessione.send("");
         }
     }
 }
