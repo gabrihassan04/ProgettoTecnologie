@@ -21,26 +21,28 @@ namespace Client
     /// </summary>
     public partial class MainWindow : Window
     {
-        
 
+        forza4 gioco = new forza4();
         public MainWindow()
         {
             InitializeComponent();
             Finestra f = new Finestra();
             f.ShowDialog();
             String s= f.nome;
+            
         }
 
         private void Btn_1_Click(object sender, RoutedEventArgs e) // evento bottone 1 
         {
             Connessione connessione = new Connessione();
+            
             if (img_1_1 is null)
             {
-                img_1_1.inserisci();
+                gioco.inserisci(img_1_1);
             }
             else if (img_1_2 is null)
             {
-                img_1_1.inserisci();
+                img_1_2.inserisci();
             }
             else if (img_1_3 is null)
             {

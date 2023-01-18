@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 
 namespace Client
 {
@@ -26,11 +27,11 @@ namespace Client
         }
 
 
-        public void inserisci()
+        public void inserisci(Image img)
         {
             if (giocatore == 1) // se giocatore 1 inserisci rosso
-            { 
-                img
+            {
+                img.SetValue("/pallina_gialla.jpeg");
             }
             else // se giocatore 2 inserisci giallo 
             {
